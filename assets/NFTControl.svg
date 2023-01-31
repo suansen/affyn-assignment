@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106.703" height="239.531" viewBox="0 0 106.703 239.531">
+  <defs>
+    <filter id="Path_5569" x="0" y="0" width="106.703" height="239.531" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#84fbfd" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5509" data-name="Group 5509" transform="translate(-141.149 -160.518)">
+    <g transform="matrix(1, 0, 0, 1, 141.15, 160.52)" filter="url(#Path_5569)">
+      <g id="Path_5569-2" data-name="Path 5569" transform="translate(91.7 5) rotate(90)" fill="#071b41">
+        <path d="M 21.97421836853027 76.20289611816406 L 0.5743995904922485 38.35144805908203 L 21.97421836853027 0.4999988079071045 L 187.5565490722656 0.4998152554035187 L 208.9563903808594 38.35144424438477 L 187.5565490722656 76.20286560058594 L 21.97421836853027 76.20289611816406 Z" stroke="none"/>
+        <path d="M 187.2648315429688 0.999786376953125 L 22.26589965820312 1 L 1.148727416992188 38.35144805908203 L 22.26589965820312 75.70286560058594 L 187.2648315429688 75.70286560058594 L 208.3820037841797 38.35144424438477 L 187.2648315429688 0.999786376953125 M 187.8482208251953 -0.000213623046875 L 209.5307464599609 38.35144805908203 L 187.8482208251953 76.70286560058594 L 21.68251037597656 76.70286560058594 L -1.52587890625e-05 38.35144805908203 L 21.68251037597656 0 L 187.8482208251953 -0.000213623046875 Z" stroke="none" fill="#33696a"/>
+      </g>
+    </g>
+    <path id="_8726180_rotate_icon" data-name="8726180_rotate_icon" d="M25.4,6C12.06,6,2,11.03,2,17.7,2,23.43,9.463,27.945,20.038,29.115l-.983.959A2.349,2.349,0,1,0,22.377,33.4l4.679-4.679a2.419,2.419,0,0,0,0-3.322l-4.679-4.679a2.349,2.349,0,0,0-3.322,3.322l.281.257c-7.978-1.123-12.657-4.258-12.657-6.6,0-2.854,7.3-7.019,18.716-7.019S44.112,14.843,44.112,17.7c0,1.942-3.392,4.679-9.849,6.083a2.34,2.34,0,1,0,.936,4.585c8.539-1.872,13.593-5.849,13.593-10.668C48.791,11.03,38.731,6,25.4,6Z" transform="translate(169.104 189.685)" fill="#84fbfd"/>
+    <text id="_" data-name="+" transform="translate(194.672 289.396)" fill="#fff" font-size="49" font-family="Poppins-Regular, Poppins"><tspan x="-16" y="0">+</tspan></text>
+    <text id="_-" data-name="-" transform="translate(194.672 344.021)" fill="#fff" font-size="49" font-family="Poppins-Regular, Poppins"><tspan x="-13" y="0">-</tspan></text>
+  </g>
+</svg>
