@@ -25,9 +25,9 @@ const style = {
 export default function Footer() {
   return (
     <footer className="mt-8 min-w-screen min-h-[15.125rem] py-12 bg-tw-footer-background flex flex-col justify-center items-center gap-y-6">
-      <div>
+      <Link href="/">
         <Image src="/images/Affyn-logo-2x.png" alt="" width={143} height={46} />
-      </div>
+      </Link>
       <div className="flex gap-x-12">
         {/* Discord */}
         <Link

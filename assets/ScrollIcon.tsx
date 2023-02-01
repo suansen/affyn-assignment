@@ -25,7 +25,7 @@ export default function ScrollIcon() {
             transform="translate(183 402)"
             fill="none"
             stroke="#fff"
-            stroke-width="2"
+            strokeWidth="2"
           >
             <rect width="24" height="36" rx="12" stroke="none" />
             <rect x="1" y="1" width="22" height="34" rx="11" fill="none" />

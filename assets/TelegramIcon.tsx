@@ -17,8 +17,8 @@ export default function TelegramIcon() {
           y2="0.996"
           gradientUnits="objectBoundingBox"
         >
-          <stop offset="0" stop-color="#41bce7" />
-          <stop offset="1" stop-color="#22a6dc" />
+          <stop offset="0" stopColor="#41bce7" />
+          <stop offset="1" stopColor="#22a6dc" />
         </linearGradient>
       </defs>
       <g
