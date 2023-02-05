@@ -11,15 +11,19 @@ export default function Header() {
       <NavLogo />
       {/* Navbar */}
       {/* Large screen */}
-      <Navbar />
+      <div className="hidden lg:inline-block">
+        <Navbar />
+      </div>
       {/* Small Screen with Hamburger */}
 
       <nav className="lg:hidden relative">
         <aside
-          className={`absolute w-96 min-h-[calc(100vh-86px)] top-16 bg-tw-navy-blue -right-8 z-40 transition ${
+          className={`absolute w-96 min-h-[calc(100vh-86px)] top-16 bg-tw-navy-blue -right-8 z-40 transition flex justify-center  ${
             isOpen ? "" : "opacity-0 pointer-events-none"
           }`}
-        ></aside>
+        >
+          <Navbar />
+        </aside>
         <div className="relative">
           <HamburgerButton isOpen={isOpen} setIsOpen={setIsOpen} />
           <div

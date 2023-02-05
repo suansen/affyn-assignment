@@ -12,7 +12,7 @@ const style = {
 
 export default function Navbar() {
   return (
-    <nav className="items-center justify-end gap-x-12 hidden lg:flex">
+    <nav className=" gap-x-12 flex flex-col gap-y-8 pt-16 lg:pt-0 lg:flex-row lg:items-center lg:justify-end">
       {/* Button */}
       <HeaderButton />
       {/* Support */}
@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className={style.text}>Support</div>
       </Link>
       {/* Border */}
-      <div className="border-r-2 h-full" />
+      <div className="border-b-2 border-white/30 h-0 w-full  lg:border-r-2 lg:border-white lg:h-16 lg:w-0" />
       {/* Login */}
       <Link href="/" className={style.link}>
         <div className={style.icon}>
